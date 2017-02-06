@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ShowStats : MonoBehaviour {
-    public float hiddenX = 234.6f;
+    public float hiddenX = 214.6f;
     public float shownX = 85.4f;
 
     private bool shown = false;
@@ -32,8 +32,8 @@ public class ShowStats : MonoBehaviour {
         bool tmpShown = shown;
         foreach (var StatBar in ObjectManager.BarsList) {
             Debug.Log("Starting animation for bar " + StatBar);
-            StartCoroutine(ToggleBar(StatBar, shown));
-            yield return new WaitForSeconds(0.3f);
+            StartCoroutine(ToggleBar(StatBar, tmpShown));
+            yield return new WaitForSeconds(0.05f);
         }
         toggleShown();
         Debug.Log("Finished animation!");
@@ -45,18 +45,17 @@ public class ShowStats : MonoBehaviour {
             while (statBarTransform.localPosition.x < hiddenX) {
                 float oldX = statBarTransform.localPosition.x;
                 float oldY = statBarTransform.localPosition.y;
-                statBarTransform.localPosition.Set(oldX + 5, oldY, 0);
-                yield return new WaitForSeconds(0.1f);
+                statBarTransform.localPosition = new Vector3(oldX + 10, oldY, 0);
+                yield return new WaitForSeconds(0.005f);
             }
         }
         else {
             RectTransform statBarTransform = statBar.GetComponent<RectTransform>();
-            while (statBarTransform.localPosition.x > hiddenX) {
-                Debug.Log(statBarTransform.localPosition);
+            while (statBarTransform.localPosition.x > shownX) {
                 float oldX = statBarTransform.localPosition.x;
                 float oldY = statBarTransform.localPosition.y;
-                statBarTransform.localPosition.Set(oldX + 5, oldY, 0);
-                yield return new WaitForSeconds(0.1f);
+                statBarTransform.localPosition = new Vector3(oldX - 10, oldY, 0);
+                yield return new WaitForSeconds(0.005f);
             }
         }
     }
