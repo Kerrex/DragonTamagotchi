@@ -40,24 +40,26 @@ public class ShowStats : MonoBehaviour {
     }
 
     private IEnumerator ToggleBar(GameObject statBar, bool shown) {
+        RectTransform statBarTransform = statBar.GetComponent<RectTransform>();
+        float oldY = statBarTransform.anchoredPosition.y;
         if (shown) {
-            RectTransform statBarTransform = statBar.GetComponent<RectTransform>();
             while (statBarTransform.anchoredPosition.x < hiddenX) {
                 float oldX = statBarTransform.anchoredPosition.x;
-                float oldY = statBarTransform.anchoredPosition.y;
                 statBarTransform.anchoredPosition = new Vector2(oldX + 10, oldY);
                 yield return new WaitForSeconds(0.005f);
             }
+            //Correction
+            statBarTransform.anchoredPosition = new Vector2(hiddenX, oldY);
         }
         else {
-            RectTransform statBarTransform = statBar.GetComponent<RectTransform>();
             while (statBarTransform.anchoredPosition.x > shownX) {
                 float oldX = statBarTransform.anchoredPosition.x;
-                float oldY = statBarTransform.anchoredPosition.y;
                 statBarTransform.anchoredPosition = new Vector2(oldX - 10, oldY);
                 Debug.Log(statBarTransform.anchoredPosition);
                 yield return new WaitForSeconds(0.005f);
             }
+            //Correction
+            statBarTransform.anchoredPosition = new Vector2(shownX, oldY);
         }
     }
 }

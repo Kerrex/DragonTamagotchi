@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Custom\Camera\AutoDetectScreen.cs" />
      <Compile Include="Assets\ObjectManager.cs" />
+     <Compile Include="Assets\Room.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\ReturnToMainMenu.cs" />

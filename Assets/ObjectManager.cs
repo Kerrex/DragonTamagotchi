@@ -8,6 +8,8 @@ public class ObjectManager : MonoBehaviour
 
     public List<GameObject> RoomsList;
 
+    public int CurrentRoomPosition { get; private set; }
+
     // Use this for initialization
     void Start()
     {
