@@ -1,7 +1,7 @@
 Shader "Hidden/Vignetting" {
 	Properties {
 		_MainTex ("Base", 2D) = "white" {}
-		_VignetteTex ("Vignette", 2D) = "white" {}
+		_VignetteTex ("Vignette", 2D) = "black" {}
 	}
 	
 	CGINCLUDE
@@ -43,7 +43,6 @@ Shader "Hidden/Vignetting" {
 		coords = (coords - 0.5) * 2.0;		
 		half coordDot = dot (coords,coords);
 		half4 color = tex2D (_MainTex, uv);	 
-
 		float mask = 1.0 - coordDot * _Intensity; 
 		
 		half4 colorBlur = tex2D (_VignetteTex, i.uv2);

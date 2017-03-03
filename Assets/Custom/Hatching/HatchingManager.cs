@@ -27,8 +27,11 @@ public class HatchingManager : MonoBehaviour {
 
         if (PlayerPrefs.GetInt(IS_HATCHED) == 2) SceneManager.LoadScene("MainScene");
         Debug.Log("Started!");
-	    PlayerPrefs.DeleteAll();
-	    PlayerPrefs.Save();
+
+	    //Uncomment only for debug purposes, no production!
+        //PlayerPrefs.DeleteAll();
+	    //PlayerPrefs.Save();
+
         if (!IsHatchingOrHatched()) {
             PrepareNewHatching();
         }
