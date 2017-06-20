@@ -1,2 +1,4 @@
 Base path: /opt/Unity/Editor/Data
-Cmd: getPlatforms
+Cmd: initializeCompiler
+
+Quitting shader compiler process

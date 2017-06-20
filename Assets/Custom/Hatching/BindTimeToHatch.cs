@@ -26,7 +26,7 @@ public class BindTimeToHatch : MonoBehaviour {
     private void UpdateTimeLabel() {
         int minutes = (int) Math.Floor((double) (_hatchingManager.currentTimeToHatchInMiliseconds / 60 / 1000));
         int seconds = (int) (_hatchingManager.currentTimeToHatchInMiliseconds / 1000 - minutes * 60);
-        gameObject.GetComponent<Text>().text = minutes + ":" + seconds;
+        gameObject.GetComponent<Text>().text = minutes.ToString();
     }
 
     private void OnApplicationFocus(bool hasFocus) {
