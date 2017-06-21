@@ -6,6 +6,8 @@ using UnityEngine;
 public class ChangeFoodOnTableOnClick : MonoBehaviour {
     
     public GameObject tableFood;
+    public GameObject fridgeCover;
+    public GameObject tableUIObject;
     private ToggleXPosition tableToogleScript;
     private ObjectManager objectManager;
     private bool isChangingFood = false;
@@ -21,7 +23,22 @@ public class ChangeFoodOnTableOnClick : MonoBehaviour {
 	}
 
     void OnMouseDown() {
-        StartCoroutine(SwitchFood());
+        if (FridgeCoverIsOpen() && TableIsOpened())
+        {
+            StartCoroutine(SwitchFood());
+        }
+    }
+
+    private bool TableIsOpened()
+    {
+        MobileInputSwipeUI tableSwipe = tableUIObject.GetComponent<MobileInputSwipeUI>();
+        return tableSwipe.IsOnRightSide();
+    }
+
+    private bool FridgeCoverIsOpen()
+    {
+        MobileInputSwipeWorldObject fridgeSwipe = fridgeCover.GetComponent<MobileInputSwipeWorldObject>();
+        return fridgeSwipe.IsOnLeftSide();
     }
 
     private IEnumerator SwitchFood() {

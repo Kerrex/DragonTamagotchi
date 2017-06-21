@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -181,6 +182,16 @@ public class MobileInputSwipeWorldObject : MonoBehaviour
     private bool IsCloserToLeftSide()
     {
         return _transform.localPosition.x - MinXValue <= MaxXValue - _transform.localPosition.x;
+    }
+
+    public bool IsOnLeftSide()
+    {
+        return Math.Abs(_transform.localPosition.x - MinXValue) < 0.01f;
+    }
+
+    public bool IsOnRightSide()
+    {
+        return Math.Abs(_transform.localPosition.x - MaxXValue) < 0.01f;
     }
 
 

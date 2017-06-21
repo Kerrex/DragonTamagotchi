@@ -150,6 +150,16 @@ public class MobileInputSwipeUI : MonoBehaviour {
 		return _transform.anchoredPosition.x - MinXValue <= MaxXValue - _transform.anchoredPosition.x;
 	}
 
+	public bool IsOnLeftSide()
+	{
+		return Math.Abs(_transform.anchoredPosition.x - MinXValue) < 1;
+	}
+
+	public bool IsOnRightSide()
+	{
+		return Math.Abs(_transform.anchoredPosition.x - MaxXValue) < 1;
+	}
+
 
 	/**
      *   Methods for Y Axis Swipe only
