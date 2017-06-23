@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44e3d6c9-63b4-462f-965a-e11fd403b23a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/LastBuild.buildreport" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/assetDatabase3" afterPath="$PROJECT_DIR$/Library/assetDatabase3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000004000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000004000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000005000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000005000000000000000" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.Tamagotchi/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Tamagotchi/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Custom/UI/Room.cs" afterPath="$PROJECT_DIR$/Assets/Custom/UI/Room.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/MainScene.unity" afterPath="$PROJECT_DIR$/Assets/MainScene.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ProjectSettings.asset" afterPath="$PROJECT_DIR$/Library/ProjectSettings.asset" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -115,7 +130,7 @@
       <file leaf-file-name="MobileInputSwipeWorldObject.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/MobileInputSwipeWorldObject.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
+            <state relative-caret-position="3780">
               <caret line="189" column="5" lean-forward="false" selection-start-line="189" selection-start-column="5" selection-end-line="189" selection-end-column="5" />
               <folding>
                 <marker date="1498066785229" expanded="true" signature="6:92" ph="..." />
@@ -172,11 +187,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChangeFoodOnTableOnClick.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChangeFoodOnTableOnClick.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/ChangeFoodOnTableOnClick.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+            <state relative-caret-position="280">
+              <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
               <folding>
                 <marker date="1498066942280" expanded="false" signature="6:92" ph="..." />
                 <marker date="1498066942280" expanded="true" signature="148:1949" ph="{...}" />
@@ -195,14 +210,37 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Room.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Custom/UI/Room.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+              <folding>
+                <marker date="1498230785890" expanded="false" signature="6:111" ph="..." />
+                <marker date="1498230785890" expanded="true" signature="146:3297" ph="{...}" />
+                <marker date="1498230785890" expanded="true" signature="565:885" ph="{...}" />
+                <marker date="1498230785890" expanded="true" signature="841:879" ph="{...}" />
+                <marker date="1498230785890" expanded="true" signature="978:1304" ph="{...}" />
+                <marker date="1498230785890" expanded="true" signature="1341:1568" ph="{...}" />
+                <marker date="1498230785890" expanded="true" signature="1609:2191" ph="{...}" />
+                <marker date="1498230785890" expanded="true" signature="1645:2061" ph="/* Transform dragonTransform = GameObject.Find(&quot;Dragon&quot;).transform; ... */" />
+                <marker date="1498230785890" expanded="true" signature="2243:2351" ph="{...}" />
+                <marker date="1498230785890" expanded="true" signature="2400:2959" ph="{...}" />
+                <marker date="1498230785890" expanded="true" signature="2563:2809" ph="{...}" />
+                <marker date="1498230785890" expanded="true" signature="2992:3053" ph="{...}" />
+                <marker date="1498230785890" expanded="true" signature="3105:3294" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MobileInputSwipeUI.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Custom/UI/MobileInputSwipeUI.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
+            <state relative-caret-position="2960">
               <caret line="153" column="5" lean-forward="false" selection-start-line="153" selection-start-column="5" selection-end-line="153" selection-end-column="5" />
               <folding>
                 <marker date="1498066942064" expanded="false" signature="6:143" ph="..." />
-                <marker date="1498066942064" expanded="true" signature="193:6236" ph="{...}" />
                 <marker date="1498066942064" expanded="true" signature="407:432" ph="{...}" />
                 <marker date="1498066942064" expanded="true" signature="524:572" ph="/* TODO GESTY ... */" />
                 <marker date="1498066942064" expanded="true" signature="590:649" ph="{...}" />
@@ -247,22 +285,6 @@
                 <marker date="1498066942064" expanded="true" signature="5846:5946" ph="{...}" />
                 <marker date="1498066942064" expanded="true" signature="5991:6091" ph="{...}" />
                 <marker date="1498066942064" expanded="true" signature="6129:6232" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FoodDropArea.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/FoodDropArea.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding>
-                <marker date="1497898204026" expanded="true" signature="6:110" ph="..." />
-                <marker date="1497898204026" expanded="true" signature="293:305" ph="{...}" />
-                <marker date="1497898204026" expanded="true" signature="363:375" ph="{...}" />
-                <marker date="1497898204026" expanded="true" signature="436:477" ph="{...}" />
-                <marker date="1497898204026" expanded="true" signature="536:578" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -380,7 +402,6 @@
         <option value="$PROJECT_DIR$/Assets/Custom/Managers/NotificationManager.cs" />
         <option value="$PROJECT_DIR$/Assets/PrepareDragonSprite.cs" />
         <option value="$PROJECT_DIR$/Assets/Custom/Managers/ObjectManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Custom/UI/Room.cs" />
         <option value="$PROJECT_DIR$/Assets/TransitToScenes.cs" />
         <option value="$PROJECT_DIR$/Assets/Custom/Hatching/BindTimeToHatch.cs" />
         <option value="$PROJECT_DIR$/Assets/BindTimeToFill.cs" />
@@ -399,6 +420,7 @@
         <option value="$PROJECT_DIR$/Assets/MobileInputSwipeWorldObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Custom/UI/MobileInputSwipeUI.cs" />
         <option value="$PROJECT_DIR$/Assets/ChangeFoodOnTableOnClick.cs" />
+        <option value="$PROJECT_DIR$/Assets/Custom/UI/Room.cs" />
       </list>
     </option>
   </component>
@@ -549,7 +571,9 @@
       <workItem from="1497384833665" duration="374000" />
       <workItem from="1497892819262" duration="7385000" />
       <workItem from="1497980841378" duration="2402000" />
-      <workItem from="1498063153669" duration="2386000" />
+      <workItem from="1498063153669" duration="2972000" />
+      <workItem from="1498229234294" duration="340000" />
+      <workItem from="1498229615319" duration="1676000" />
     </task>
     <task id="LOCAL-00001" summary="Dodana animacja zmiany pokojów">
       <created>1486506178842</created>
@@ -600,11 +624,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498067295522</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Small kitchen changes">
+      <created>1498067317164</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1498067317164</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12547000" />
+    <option name="totallyTimeSpent" value="15149000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -617,21 +648,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.496875" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33050847" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33262712" sideWeight="0.5083333" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33050847" sideWeight="0.49583334" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33262712" sideWeight="0.49166667" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -743,13 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Custom/UI/Room.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="29" column="64" lean-forward="false" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/TransitToScenes.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Custom/Hatching/Curtain.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -805,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9940">
           <caret line="497" column="19" lean-forward="false" selection-start-line="497" selection-start-column="19" selection-end-line="497" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,7 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -821,7 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1160">
           <caret line="58" column="18" lean-forward="false" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -960,7 +982,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/MobileInputSwipeWorldObject.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
+        <state relative-caret-position="3780">
           <caret line="189" column="5" lean-forward="false" selection-start-line="189" selection-start-column="5" selection-end-line="189" selection-end-column="5" />
           <folding>
             <marker date="1498066785229" expanded="true" signature="6:92" ph="..." />
@@ -1018,11 +1040,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Custom/UI/MobileInputSwipeUI.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="2960">
           <caret line="153" column="5" lean-forward="false" selection-start-line="153" selection-start-column="5" selection-end-line="153" selection-end-column="5" />
           <folding>
             <marker date="1498066942064" expanded="false" signature="6:143" ph="..." />
-            <marker date="1498066942064" expanded="true" signature="193:6236" ph="{...}" />
             <marker date="1498066942064" expanded="true" signature="407:432" ph="{...}" />
             <marker date="1498066942064" expanded="true" signature="524:572" ph="/* TODO GESTY ... */" />
             <marker date="1498066942064" expanded="true" signature="590:649" ph="{...}" />
@@ -1073,8 +1094,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ChangeFoodOnTableOnClick.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+        <state relative-caret-position="280">
+          <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding>
             <marker date="1498066942280" expanded="false" signature="6:92" ph="..." />
             <marker date="1498066942280" expanded="true" signature="148:1949" ph="{...}" />
@@ -1088,6 +1109,28 @@
             <marker date="1498066942280" expanded="true" signature="1359:1417" ph="{...}" />
             <marker date="1498066942280" expanded="true" signature="1764:1811" ph="{...}" />
             <marker date="1498066942280" expanded="true" signature="1855:1947" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Custom/UI/Room.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <marker date="1498230785890" expanded="false" signature="6:111" ph="..." />
+            <marker date="1498230785890" expanded="true" signature="146:3297" ph="{...}" />
+            <marker date="1498230785890" expanded="true" signature="565:885" ph="{...}" />
+            <marker date="1498230785890" expanded="true" signature="841:879" ph="{...}" />
+            <marker date="1498230785890" expanded="true" signature="978:1304" ph="{...}" />
+            <marker date="1498230785890" expanded="true" signature="1341:1568" ph="{...}" />
+            <marker date="1498230785890" expanded="true" signature="1609:2191" ph="{...}" />
+            <marker date="1498230785890" expanded="true" signature="1645:2061" ph="/* Transform dragonTransform = GameObject.Find(&quot;Dragon&quot;).transform; ... */" />
+            <marker date="1498230785890" expanded="true" signature="2243:2351" ph="{...}" />
+            <marker date="1498230785890" expanded="true" signature="2400:2959" ph="{...}" />
+            <marker date="1498230785890" expanded="true" signature="2563:2809" ph="{...}" />
+            <marker date="1498230785890" expanded="true" signature="2992:3053" ph="{...}" />
+            <marker date="1498230785890" expanded="true" signature="3105:3294" ph="{...}" />
           </folding>
         </state>
       </provider>

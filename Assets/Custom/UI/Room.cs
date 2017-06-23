@@ -12,6 +12,8 @@ public class Room : MonoBehaviour
     // True powinno występować tylko w jednym pokoju. Wpp. mogą wystąpić anomalie
     public Boolean setActive;
 
+    public Vector2 DragonPosition;
+
     private Vector3 _position;
 
     private Camera _camera;
@@ -57,10 +59,13 @@ public class Room : MonoBehaviour
 
     private void ChangeDragonPosition()
     {
-        Transform dragonTransform = GameObject.Find("Dragon").transform;
+        //Deprecated
+        /*Transform dragonTransform = GameObject.Find("Dragon").transform;
         float xDifference = _objectManager.RoomsList[_objectManager.CurrentRoomPosition].transform.position.x -
                             _objectManager.RoomsList[_listPosition].transform.position.x;
-        dragonTransform.position = new Vector3(dragonTransform.position.x - xDifference, dragonTransform.position.y, dragonTransform.position.z);
+        dragonTransform.position = new Vector3(dragonTransform.position.x - xDifference, dragonTransform.position.y, dragonTransform.position.z);*/
+        Transform dragonTransform = GameObject.Find("Dragon").transform;
+        dragonTransform.position = DragonPosition;
     }
 
     private void StopExistingSwitchingAnimations()
