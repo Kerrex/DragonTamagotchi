@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Collider2D))]
 public class MobileInputSwipeWorldObject : MonoBehaviour
 {
     private bool _isSwiping = false;
@@ -201,9 +202,10 @@ public class MobileInputSwipeWorldObject : MonoBehaviour
 
     private void SwipeObjectByYAxis()
     {
-        Vector3 touchPosition = cam.ScreenToWorldPoint(Input.GetTouch(0).position);
+        float deltaPositionY = Input.GetTouch(0).deltaPosition.y;
+        float newPositionY = _transform.position.y + deltaPositionY;
         _transform.position = new Vector2(_transform.position.x,
-                                          touchPosition.y);
+                                          newPositionY);
         CorrectYPosition();
 
     }
@@ -259,6 +261,16 @@ public class MobileInputSwipeWorldObject : MonoBehaviour
     private bool IsCloserToBottomSide()
     {
         return _transform.localPosition.y - MinXValue <= MaxXValue - _transform.localPosition.y;
+    }
+
+    public bool IsAtTop()
+    {
+        return Math.Abs(_transform.localPosition.y - MaxXValue) < 0.01f && SelectedAxis == Axis.Y_AXIS;
+    }
+
+    public bool IsAtBottom()
+    {
+        return Math.Abs(_transform.localPosition.y - MinXValue) < 0.01f && SelectedAxis == Axis.Y_AXIS;
     }
 
 }

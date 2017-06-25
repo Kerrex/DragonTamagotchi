@@ -86,9 +86,12 @@
     <Compile Include="Assets\PrepareBoardHandler.cs" />
     <Compile Include="Assets\PrepareCurrentRoom.cs" />
     <Compile Include="Assets\RaiseJoyWhenMoving.cs" />
+    <Compile Include="Assets\ShowerSwiping.cs" />
+    <Compile Include="Assets\ShowerWhenLowered.cs" />
     <Compile Include="Assets\ThrowableBall.cs" />
     <Compile Include="Assets\ToggleXPosition.cs" />
     <Compile Include="Assets\ToggleXPositions.cs" />
+    <Compile Include="Assets\UseToilet.cs" />
     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />

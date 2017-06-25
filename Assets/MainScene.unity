@@ -6980,6 +6980,7 @@ GameObject:
   - component: {fileID: 1166267591}
   - component: {fileID: 1166267590}
   - component: {fileID: 1166267592}
+  - component: {fileID: 1166267593}
   m_Layer: 5
   m_Name: Curtain
   m_TagString: Untagged
@@ -7052,6 +7053,18 @@ MonoBehaviour:
   SelectedAxis: 0
   MinXValue: -289.3
   MaxXValue: -151.9
+--- !u!114 &1166267593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1166267588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4ce6bedb6d0a4c739e74c92066c5836, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ToiletToRaise: 400
 --- !u!1001 &1224834247
 Prefab:
   m_ObjectHideFlags: 0
@@ -9003,6 +9016,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1547819099}
   - component: {fileID: 1547819100}
+  - component: {fileID: 1547819102}
+  - component: {fileID: 1547819103}
+  - component: {fileID: 1547819104}
   m_Layer: 0
   m_Name: Shower
   m_TagString: Untagged
@@ -9017,8 +9033,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1547819098}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.81, y: 6.51, z: 10}
-  m_LocalScale: {x: 0.5288079, y: 0.5010864, z: 1}
+  m_LocalPosition: {x: 3.63, y: 6.94, z: 10}
+  m_LocalScale: {x: 0.5288079, y: 0.5552885, z: 1}
   m_Children: []
   m_Father: {fileID: 839957766}
   m_RootOrder: 1
@@ -9063,6 +9079,55 @@ SpriteRenderer:
   m_Size: {x: 8.47, y: 15.86}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!114 &1547819102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1547819098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30062c76fa0e74e28987dd807fc24972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1547819103
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1547819098}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.47, y: 15.86}
+    newSize: {x: 8.47, y: 15.86}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.47, y: 15.86}
+  m_EdgeRadius: 0
+--- !u!114 &1547819104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1547819098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a1f135fec6124658aedd7ca4483d840, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxXInclination: 2
+  MaxYInclination: 1
 --- !u!1 &1562951019
 GameObject:
   m_ObjectHideFlags: 0
@@ -11072,7 +11137,6 @@ GameObject:
   - component: {fileID: 1961568835}
   - component: {fileID: 1961568834}
   - component: {fileID: 1961568833}
-  - component: {fileID: 1961568832}
   m_Layer: 5
   m_Name: ToiletButton
   m_TagString: Untagged
@@ -11099,48 +11163,6 @@ RectTransform:
   m_AnchoredPosition: {x: 30.099976, y: -31.5}
   m_SizeDelta: {x: 36, y: 36.900024}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1961568832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1961568830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32558509630644371ad4f2a81dde3182, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1961568834}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  afterClickSprite: {fileID: 0}
 --- !u!114 &1961568833
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -66,6 +66,15 @@ public class Statistics : MonoBehaviour {
         }
     }
 
+    public void RaiseToiletBy(int pointsToRaise)
+    {
+        CurrentToilet += pointsToRaise;
+        if (CurrentToilet > MaxToilet)
+        {
+            CurrentToilet = MaxToilet;
+        }
+    }
+
     public void RaiseHungerBy(int pointsToRaise)
     {
         StartCoroutine(RaiseHungerCourutine(pointsToRaise));
